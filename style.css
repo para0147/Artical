@@ -1,0 +1,56 @@
+body{
+    background-image: url("/pexels-arthouse-studio-4591726.jpg"), linear-gradient(#eb01a5, #d13531);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: black;
+    height: 100%;
+}
+
+.header{
+    text-align: center;
+}
+
+section{
+    background-color: rgb(104, 72, 64);
+    padding-top: 34px;
+    width: 64%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
+
+.text{
+    display: flex;
+}
+
+#para{
+    font-size: 17px;
+    padding: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width: 750px){
+    
+    #para{
+        padding: 40px;
+        font-size: 15px;
+    }
+
+    img{
+        width: 200px;
+        height: 150px;
+    }
+
+}
